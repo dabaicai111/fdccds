@@ -1,0 +1,124 @@
+{
+  "uid" : "4cd2bf210fe9584",
+  "name" : "test_add_product_ff",
+  "fullName" : "test_case.ui.main.test_main_add_tianjiashangping#test_add_product_ff",
+  "historyId" : "b9e78cd59f0ddd569d3e67d590cd1e61",
+  "time" : {
+    "start" : 1564626513983,
+    "stop" : 1564626522025,
+    "duration" : 8042
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "base",
+    "time" : {
+      "start" : 1564626462011,
+      "stop" : 1564626466065,
+      "duration" : 4054
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "618e3afa48387d68",
+      "name" : "下拉至最底之前",
+      "source" : "618e3afa48387d68.png",
+      "type" : "image/png",
+      "size" : 56054
+    }, {
+      "uid" : "37c825ff7a700422",
+      "name" : "下拉至最底之后",
+      "source" : "37c825ff7a700422.png",
+      "type" : "image/png",
+      "size" : 56054
+    }, {
+      "uid" : "c037c8df7f5fb003",
+      "name" : "点击确定之前",
+      "source" : "c037c8df7f5fb003.png",
+      "type" : "image/png",
+      "size" : 56054
+    }, {
+      "uid" : "90406ad05ff7b095",
+      "name" : "点击确定之后",
+      "source" : "90406ad05ff7b095.png",
+      "type" : "image/png",
+      "size" : 7322
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "base::0",
+    "time" : {
+      "start" : 1564626522026,
+      "stop" : 1564626524201,
+      "duration" : 2175
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "点击完成，提交商品"
+  }, {
+    "name" : "feature",
+    "value" : "添加商品流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.ui.main"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_add_tianjiashangping"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190220JWP"
+  }, {
+    "name" : "thread",
+    "value" : "6236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.ui.main.test_main_add_tianjiashangping"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4cd2bf210fe9584.json",
+  "parameterValues" : [ ]
+}

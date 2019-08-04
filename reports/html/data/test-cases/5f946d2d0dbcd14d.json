@@ -1,0 +1,223 @@
+{
+  "uid" : "5f946d2d0dbcd14d",
+  "name" : "test_login",
+  "fullName" : "test_case.ui.main.test_main_add_tianjiashangping#test_login",
+  "historyId" : "385a611d63778b107ce33e17ea9fa208",
+  "time" : {
+    "start" : 1564628078041,
+    "stop" : 1564628102088,
+    "duration" : 24047
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "base",
+    "time" : {
+      "start" : 1564628074042,
+      "stop" : 1564628078039,
+      "duration" : 3997
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录页面跳转断言",
+      "time" : {
+        "start" : 1564628100086,
+        "stop" : 1564628100088,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bd652072c3eddcb1",
+        "name" : "实际结果",
+        "source" : "bd652072c3eddcb1.txt",
+        "type" : "text/plain",
+        "size" : 81811
+      }, {
+        "uid" : "a149b592941b4408",
+        "name" : "预期结果",
+        "source" : "a149b592941b4408.txt",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b5d1b970d2e74f3f",
+      "name" : "打开登录界面之前",
+      "source" : "b5d1b970d2e74f3f.png",
+      "type" : "image/png",
+      "size" : 6436
+    }, {
+      "uid" : "cbd7523cdcc67159",
+      "name" : "打开登录界面之后",
+      "source" : "cbd7523cdcc67159.png",
+      "type" : "image/png",
+      "size" : 37055
+    }, {
+      "uid" : "9f9ae9cfc2c84602",
+      "name" : "输入用户名之前",
+      "source" : "9f9ae9cfc2c84602.png",
+      "type" : "image/png",
+      "size" : 37055
+    }, {
+      "uid" : "94a63b41bdbd7d83",
+      "name" : "输入用户名之后",
+      "source" : "94a63b41bdbd7d83.png",
+      "type" : "image/png",
+      "size" : 37080
+    }, {
+      "uid" : "61a1ece4f99fd4cf",
+      "name" : "输入用户名之前",
+      "source" : "61a1ece4f99fd4cf.png",
+      "type" : "image/png",
+      "size" : 37050
+    }, {
+      "uid" : "8a5b42a6707773dc",
+      "name" : "输入用户名之后",
+      "source" : "8a5b42a6707773dc.png",
+      "type" : "image/png",
+      "size" : 37071
+    }, {
+      "uid" : "15261fa2f31ec8cf",
+      "name" : "点击登录之前",
+      "source" : "15261fa2f31ec8cf.png",
+      "type" : "image/png",
+      "size" : 37118
+    }, {
+      "uid" : "5742cc8731e27f5e",
+      "name" : "点击登录之后",
+      "source" : "5742cc8731e27f5e.png",
+      "type" : "image/png",
+      "size" : 51325
+    }, {
+      "uid" : "aeb0081a0c6e0137",
+      "name" : "点击残忍拒绝之前",
+      "source" : "aeb0081a0c6e0137.png",
+      "type" : "image/png",
+      "size" : 39816
+    }, {
+      "uid" : "d7f5a4cb8214e0ae",
+      "name" : "点击残忍拒绝之后",
+      "source" : "d7f5a4cb8214e0ae.png",
+      "type" : "image/png",
+      "size" : 44966
+    }, {
+      "uid" : "750ed2e4aa1dbe54",
+      "name" : "点击登录之前",
+      "source" : "750ed2e4aa1dbe54.png",
+      "type" : "image/png",
+      "size" : 37147
+    }, {
+      "uid" : "4db83abd69cd0e4b",
+      "name" : "点击登录之后",
+      "source" : "4db83abd69cd0e4b.png",
+      "type" : "image/png",
+      "size" : 38080
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "base::0",
+    "time" : {
+      "start" : 1564628142125,
+      "stop" : 1564628145309,
+      "duration" : 3184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "添加商品流程"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.ui.main"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_add_tianjiashangping"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190220JWP"
+  }, {
+    "name" : "thread",
+    "value" : "4976-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.ui.main.test_main_add_tianjiashangping"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f9b9ea60765ff380",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564626466067,
+        "stop" : 1564626487359,
+        "duration" : 21292
+      }
+    }, {
+      "uid" : "7c83f15430b1ec9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564625939097,
+        "stop" : 1564625959917,
+        "duration" : 20820
+      }
+    }, {
+      "uid" : "facd1f0c31726c36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564624988644,
+        "stop" : 1564625011877,
+        "duration" : 23233
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f946d2d0dbcd14d.json",
+  "parameterValues" : [ ]
+}

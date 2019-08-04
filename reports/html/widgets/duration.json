@@ -1,0 +1,131 @@
+[ {
+  "uid" : "a608bccaec47ba95",
+  "name" : "test_change_var[添加商品分类_全字段正常流_2]",
+  "time" : {
+    "start" : 1564624861214,
+    "stop" : 1564624861346,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cd2bf210fe9584",
+  "name" : "test_add_product_ff",
+  "time" : {
+    "start" : 1564626513983,
+    "stop" : 1564626522025,
+    "duration" : 8042
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "903edb114eabf14c",
+  "name" : "test_change_pwd_var[添加商品分类_全字段正常流_1]",
+  "time" : {
+    "start" : 1564287899573,
+    "stop" : 1564287899692,
+    "duration" : 119
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5feda9c8ca256e74",
+  "name" : "test_change_var[添加商品分类_全字段正常流_3]",
+  "time" : {
+    "start" : 1564624861353,
+    "stop" : 1564624861519,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1be852d63e87cb8",
+  "name" : "test_add_product_abc",
+  "time" : {
+    "start" : 1564628125008,
+    "stop" : 1564628128788,
+    "duration" : 3780
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cd803be27b77c0d",
+  "name" : "test_add_product",
+  "time" : {
+    "start" : 1564628102094,
+    "stop" : 1564628125001,
+    "duration" : 22907
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b70374e9d0d5154",
+  "name" : "test_change_pwd_var[添加商品分类_全字段正常流_3]",
+  "time" : {
+    "start" : 1564287899902,
+    "stop" : 1564287900021,
+    "duration" : 119
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2eb2ab2a3c7781f2",
+  "name" : "test_add_product_cd",
+  "time" : {
+    "start" : 1564628128793,
+    "stop" : 1564628132577,
+    "duration" : 3784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2b29eb058607867",
+  "name" : "test_change_var[添加商品分类_全字段正常流_1]",
+  "time" : {
+    "start" : 1564624861076,
+    "stop" : 1564624861204,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a00117754ab3a762",
+  "name" : "test_add_product_ef",
+  "time" : {
+    "start" : 1564628132582,
+    "stop" : 1564628142125,
+    "duration" : 9543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f946d2d0dbcd14d",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1564628078041,
+    "stop" : 1564628102088,
+    "duration" : 24047
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbe6bdd28215d790",
+  "name" : "test_change_pwd_var[添加商品分类_全字段正常流_2]",
+  "time" : {
+    "start" : 1564287899760,
+    "stop" : 1564287899874,
+    "duration" : 114
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2972ca9734ba18b",
+  "name" : "test_add_product_agg",
+  "time" : {
+    "start" : 1564625979351,
+    "stop" : 1564625980388,
+    "duration" : 1037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

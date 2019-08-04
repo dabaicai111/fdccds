@@ -1,0 +1,120 @@
+{
+  "uid" : "b2972ca9734ba18b",
+  "name" : "test_add_product_agg",
+  "fullName" : "test_case.ui.main.test_main_add_tianjiashangping#test_add_product_agg",
+  "historyId" : "dd33ff4e1f42aed00ecdd6290af88ab0",
+  "time" : {
+    "start" : 1564625979351,
+    "stop" : 1564625980388,
+    "duration" : 1037
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "base",
+    "time" : {
+      "start" : 1564625935011,
+      "stop" : 1564625939096,
+      "duration" : 4085
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "65a102e2ca299435",
+      "name" : "点击下一步，填写商品促销之前",
+      "source" : "65a102e2ca299435.png",
+      "type" : "image/png",
+      "size" : 37612
+    }, {
+      "uid" : "ae438e435acbf9bf",
+      "name" : "点击下一步，填写商品促销之后",
+      "source" : "ae438e435acbf9bf.png",
+      "type" : "image/png",
+      "size" : 44967
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "base::0",
+    "time" : {
+      "start" : 1564625990744,
+      "stop" : 1564625992916,
+      "duration" : 2172
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "添加商品流程"
+  }, {
+    "name" : "story",
+    "value" : "填写商品促销"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.ui.main"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_add_tianjiashangping"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190220JWP"
+  }, {
+    "name" : "thread",
+    "value" : "6760-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.ui.main.test_main_add_tianjiashangping"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "da08661e932b2795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564625030472,
+        "stop" : 1564625031597,
+        "duration" : 1125
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2972ca9734ba18b.json",
+  "parameterValues" : [ ]
+}

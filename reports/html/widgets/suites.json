@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "96082eec08200d36c951f20d76325370",
+    "name" : "test_case.demo.test_aip_project_zhouri",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "0dfe71f105c32c04ce4ced31e73d30c8",
+    "name" : "test_case.ui.main",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  } ]
+}

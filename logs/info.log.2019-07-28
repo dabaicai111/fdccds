@@ -1,0 +1,265 @@
+2019-07-28 12:20:22,213 - tools.log_tool - INFO - ----请求用时: 145.482 秒数
+2019-07-28 12:20:22,214 - tools.log_tool - INFO - ---------------请求-----------------
+http://qa.yansl.com:8080/admin/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 43
+Content-Type: application/json
+
+b'{"password": "123456", "username": "admin"}'
+2019-07-28 12:20:22,214 - tools.log_tool - INFO - ---------------响应----------------
+200
+X-Application-Context: application:prod
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 28 Jul 2019 04:19:54 GMT
+
+{"code":200,"message":"操作成功","data":{"tokenHead":"Bearer ","token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQyODc1OTQ4MzUsImV4cCI6MTU2NDg5MjM5NH0.323GyjpSXRYQcNV0vLv7VcTgbW2H-8VzW2uxJZY2YlN3OuzzYNYg6J3EjJ2H6eeF2afZY3v5o9dCBWMuUG8Hew"}}
+2019-07-28 12:22:29,849 - tools.log_tool - INFO - ----请求用时: 163.104 秒数
+2019-07-28 12:22:29,850 - tools.log_tool - INFO - ---------------请求-----------------
+http://qa.yansl.com:8080/admin/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 43
+Content-Type: application/json
+
+b'{"password": "123456", "username": "admin"}'
+2019-07-28 12:22:29,850 - tools.log_tool - INFO - ---------------响应----------------
+200
+X-Application-Context: application:prod
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 28 Jul 2019 04:22:02 GMT
+
+{"code":200,"message":"操作成功","data":{"tokenHead":"Bearer ","token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQyODc3MjI0NzIsImV4cCI6MTU2NDg5MjUyMn0.AnoxZ6nZvgVwv9OiU6CC6Sm1tD4msc8uHofe7AVSNLDX9xI_MBuTU1FqnHc6rTnzuI43GGH6Q_wq8qxaDVC8-A"}}
+2019-07-28 12:24:59,569 - tools.log_tool - INFO - ----请求用时: 166.409 秒数
+2019-07-28 12:24:59,569 - tools.log_tool - INFO - ---------------请求-----------------
+http://qa.yansl.com:8080/admin/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 43
+Content-Type: application/json
+
+b'{"password": "123456", "username": "admin"}'
+2019-07-28 12:24:59,570 - tools.log_tool - INFO - ---------------响应----------------
+200
+X-Application-Context: application:prod
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 28 Jul 2019 04:24:32 GMT
+
+{"code":200,"message":"操作成功","data":{"tokenHead":"Bearer ","token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQyODc4NzIxNzMsImV4cCI6MTU2NDg5MjY3Mn0.pakIRU70tIZuJ7svN5XXZ_t6hkMK7hlJxiJPhxAT1Kz4fPhYdmfM3sGJ_qzUSfbEDsaf-TrAjwPSEBNGw7N21g"}}
+2019-07-28 12:24:59,688 - tools.log_tool - INFO - ----请求用时: 111.192 秒数
+2019-07-28 12:24:59,689 - tools.log_tool - INFO - ---------------请求-----------------
+http://qa.yansl.com:8080/productCategory/create
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQyODc4NzIxNzMsImV4cCI6MTU2NDg5MjY3Mn0.pakIRU70tIZuJ7svN5XXZ_t6hkMK7hlJxiJPhxAT1Kz4fPhYdmfM3sGJ_qzUSfbEDsaf-TrAjwPSEBNGw7N21g
+charset: UTF-8
+Content-Length: 251
+Content-Type: application/json
+
+b'{"description": "a", "icon": "http://img5.imgtn.bdimg.com/it/u=3300305952,1328708913&fm=26&gp=0.jpg", "keywords": "s", "name": "\\u8f66", "navStatus": 0, "parentId": 0, "productAttributeIdList": [1], "productUnit": "\\u4ef6", "showStatus": 0, "sort": 0}'
+2019-07-28 12:24:59,689 - tools.log_tool - INFO - ---------------响应----------------
+200
+X-Application-Context: application:prod
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 28 Jul 2019 04:24:32 GMT
+
+{"code":200,"message":"操作成功","data":1}
+2019-07-28 12:24:59,691 - tools.log_tool - ERROR - Response body != expected_msg, expected_msg is code, body is 200
+2019-07-28 12:24:59,870 - tools.log_tool - INFO - ----请求用时: 107.287 秒数
+2019-07-28 12:24:59,870 - tools.log_tool - INFO - ---------------请求-----------------
+http://qa.yansl.com:8080/productCategory/create
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQyODc4NzIxNzMsImV4cCI6MTU2NDg5MjY3Mn0.pakIRU70tIZuJ7svN5XXZ_t6hkMK7hlJxiJPhxAT1Kz4fPhYdmfM3sGJ_qzUSfbEDsaf-TrAjwPSEBNGw7N21g
+charset: UTF-8
+Content-Length: 437
+Content-Type: application/json
+
+b'{"description": "fghfhfhfghfhfgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggfgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg", "icon": "http://img5.imgtn.bdimg.com/it/u=3300305952,1328708913&fm=26&gp=0.jpg", "keywords": "s", "name": "\\u8f66", "navStatus": 0, "parentId": 0, "productAttributeIdList": [1], "productUnit": "\\u4ef6", "showStatus": 0, "sort": 0}'
+2019-07-28 12:24:59,871 - tools.log_tool - INFO - ---------------响应----------------
+200
+X-Application-Context: application:prod
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 28 Jul 2019 04:24:32 GMT
+
+{"code":200,"message":"操作成功","data":1}
+2019-07-28 12:24:59,873 - tools.log_tool - ERROR - Response body != expected_msg, expected_msg is code, body is 200
+2019-07-28 12:25:00,019 - tools.log_tool - INFO - ----请求用时: 114.215 秒数
+2019-07-28 12:25:00,019 - tools.log_tool - INFO - ---------------请求-----------------
+http://qa.yansl.com:8080/productCategory/create
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQyODc4NzIxNzMsImV4cCI6MTU2NDg5MjY3Mn0.pakIRU70tIZuJ7svN5XXZ_t6hkMK7hlJxiJPhxAT1Kz4fPhYdmfM3sGJ_qzUSfbEDsaf-TrAjwPSEBNGw7N21g
+charset: UTF-8
+Content-Length: 437
+Content-Type: application/json
+
+b'{"description": "fghfhfhfghfhfgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggfgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg", "icon": "http://img5.imgtn.bdimg.com/it/u=3300305952,1328708913&fm=26&gp=0.jpg", "keywords": "s", "name": "\\u8f66", "navStatus": 0, "parentId": 0, "productAttributeIdList": [1], "productUnit": "\\u4ef6", "showStatus": 0, "sort": 0}'
+2019-07-28 12:25:00,019 - tools.log_tool - INFO - ---------------响应----------------
+200
+X-Application-Context: application:prod
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 28 Jul 2019 04:24:32 GMT
+
+{"code":200,"message":"操作成功","data":1}
+2019-07-28 12:25:00,021 - tools.log_tool - ERROR - Response body != expected_msg, expected_msg is code, body is 200
+2019-07-28 12:34:02,412 - tools.log_tool - INFO - ----请求用时: 172.402 秒数
+2019-07-28 12:34:02,412 - tools.log_tool - INFO - ---------------请求-----------------
+http://qa.yansl.com:8080/admin/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 43
+Content-Type: application/json
+
+b'{"password": "123456", "username": "admin"}'
+2019-07-28 12:34:02,412 - tools.log_tool - INFO - ---------------响应----------------
+200
+X-Application-Context: application:prod
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 28 Jul 2019 04:33:35 GMT
+
+{"code":200,"message":"操作成功","data":{"tokenHead":"Bearer ","token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQyODg0MTUwMzUsImV4cCI6MTU2NDg5MzIxNX0.3T_BfJzh21gx929cL31WtncrWiesuZhKWTebgAlSTSO92q110sYY-eF7afp6d5pRKSHr2bmXQpj0Yyu0sjhD2g"}}
+2019-07-28 12:34:02,525 - tools.log_tool - INFO - ----请求用时: 103.817 秒数
+2019-07-28 12:34:02,525 - tools.log_tool - INFO - ---------------请求-----------------
+http://qa.yansl.com:8080/productCategory/create
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQyODg0MTUwMzUsImV4cCI6MTU2NDg5MzIxNX0.3T_BfJzh21gx929cL31WtncrWiesuZhKWTebgAlSTSO92q110sYY-eF7afp6d5pRKSHr2bmXQpj0Yyu0sjhD2g
+charset: UTF-8
+Content-Length: 251
+Content-Type: application/json
+
+b'{"description": "a", "icon": "http://img5.imgtn.bdimg.com/it/u=3300305952,1328708913&fm=26&gp=0.jpg", "keywords": "s", "name": "\\u8f66", "navStatus": 0, "parentId": 0, "productAttributeIdList": [1], "productUnit": "\\u4ef6", "showStatus": 0, "sort": 0}'
+2019-07-28 12:34:02,525 - tools.log_tool - INFO - ---------------响应----------------
+200
+X-Application-Context: application:prod
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 28 Jul 2019 04:33:35 GMT
+
+{"code":200,"message":"操作成功","data":1}
+2019-07-28 12:34:02,649 - tools.log_tool - INFO - ----请求用时: 113.887 秒数
+2019-07-28 12:34:02,650 - tools.log_tool - INFO - ---------------请求-----------------
+http://qa.yansl.com:8080/productCategory/create
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQyODg0MTUwMzUsImV4cCI6MTU2NDg5MzIxNX0.3T_BfJzh21gx929cL31WtncrWiesuZhKWTebgAlSTSO92q110sYY-eF7afp6d5pRKSHr2bmXQpj0Yyu0sjhD2g
+charset: UTF-8
+Content-Length: 437
+Content-Type: application/json
+
+b'{"description": "fghfhfhfghfhfgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggfgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg", "icon": "http://img5.imgtn.bdimg.com/it/u=3300305952,1328708913&fm=26&gp=0.jpg", "keywords": "s", "name": "\\u8f66", "navStatus": 0, "parentId": 0, "productAttributeIdList": [1], "productUnit": "\\u4ef6", "showStatus": 0, "sort": 0}'
+2019-07-28 12:34:02,650 - tools.log_tool - INFO - ---------------响应----------------
+200
+X-Application-Context: application:prod
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 28 Jul 2019 04:33:35 GMT
+
+{"code":200,"message":"操作成功","data":1}
+2019-07-28 12:34:02,822 - tools.log_tool - INFO - ----请求用时: 161.752 秒数
+2019-07-28 12:34:02,822 - tools.log_tool - INFO - ---------------请求-----------------
+http://qa.yansl.com:8080/productCategory/create
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQyODg0MTUwMzUsImV4cCI6MTU2NDg5MzIxNX0.3T_BfJzh21gx929cL31WtncrWiesuZhKWTebgAlSTSO92q110sYY-eF7afp6d5pRKSHr2bmXQpj0Yyu0sjhD2g
+charset: UTF-8
+Content-Length: 437
+Content-Type: application/json
+
+b'{"description": "fghfhfhfghfhfgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggfgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg", "icon": "http://img5.imgtn.bdimg.com/it/u=3300305952,1328708913&fm=26&gp=0.jpg", "keywords": "s", "name": "\\u8f66", "navStatus": 0, "parentId": 0, "productAttributeIdList": [1], "productUnit": "\\u4ef6", "showStatus": 0, "sort": 0}'
+2019-07-28 12:34:02,822 - tools.log_tool - INFO - ---------------响应----------------
+200
+X-Application-Context: application:prod
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 28 Jul 2019 04:33:35 GMT
+
+{"code":200,"message":"操作成功","data":1}

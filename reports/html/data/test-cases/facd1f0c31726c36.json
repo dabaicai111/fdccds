@@ -1,0 +1,185 @@
+{
+  "uid" : "facd1f0c31726c36",
+  "name" : "test_login",
+  "fullName" : "test_case.ui.main.test_main_add_tianjiashangping#test_login",
+  "historyId" : "385a611d63778b107ce33e17ea9fa208",
+  "time" : {
+    "start" : 1564624988644,
+    "stop" : 1564625011877,
+    "duration" : 23233
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "base",
+    "time" : {
+      "start" : 1564624984339,
+      "stop" : 1564624988642,
+      "duration" : 4303
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加登录断言:实际结果为:(),预期结果为:()",
+      "time" : {
+        "start" : 1564625009875,
+        "stop" : 1564625009875,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9f55e5edcb88ef32",
+      "name" : "打开登录界面之前",
+      "source" : "9f55e5edcb88ef32.png",
+      "type" : "image/png",
+      "size" : 6436
+    }, {
+      "uid" : "9c7039c550df0d5c",
+      "name" : "打开登录界面之后",
+      "source" : "9c7039c550df0d5c.png",
+      "type" : "image/png",
+      "size" : 37092
+    }, {
+      "uid" : "885034217f63ca7a",
+      "name" : "输入用户名之前",
+      "source" : "885034217f63ca7a.png",
+      "type" : "image/png",
+      "size" : 37092
+    }, {
+      "uid" : "8f19ac4543c38719",
+      "name" : "输入用户名之后",
+      "source" : "8f19ac4543c38719.png",
+      "type" : "image/png",
+      "size" : 37068
+    }, {
+      "uid" : "c1b03088003c8c0a",
+      "name" : "输入用户名之前",
+      "source" : "c1b03088003c8c0a.png",
+      "type" : "image/png",
+      "size" : 37040
+    }, {
+      "uid" : "d24917a7f67ade82",
+      "name" : "输入用户名之后",
+      "source" : "d24917a7f67ade82.png",
+      "type" : "image/png",
+      "size" : 37071
+    }, {
+      "uid" : "e2d320ea2b60826d",
+      "name" : "点击登录之前",
+      "source" : "e2d320ea2b60826d.png",
+      "type" : "image/png",
+      "size" : 37118
+    }, {
+      "uid" : "ba449eb636de772b",
+      "name" : "点击登录之后",
+      "source" : "ba449eb636de772b.png",
+      "type" : "image/png",
+      "size" : 39816
+    }, {
+      "uid" : "deebe782755cd1e",
+      "name" : "点击残忍拒绝之前",
+      "source" : "deebe782755cd1e.png",
+      "type" : "image/png",
+      "size" : 39816
+    }, {
+      "uid" : "fd220a4295c538da",
+      "name" : "点击残忍拒绝之后",
+      "source" : "fd220a4295c538da.png",
+      "type" : "image/png",
+      "size" : 45453
+    }, {
+      "uid" : "86ba005bfb41a162",
+      "name" : "点击登录之前",
+      "source" : "86ba005bfb41a162.png",
+      "type" : "image/png",
+      "size" : 37147
+    }, {
+      "uid" : "d76178d583d5bd40",
+      "name" : "点击登录之后",
+      "source" : "d76178d583d5bd40.png",
+      "type" : "image/png",
+      "size" : 37940
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "base::0",
+    "time" : {
+      "start" : 1564625041934,
+      "stop" : 1564625044073,
+      "duration" : 2139
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "添加商品流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.ui.main"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_add_tianjiashangping"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190220JWP"
+  }, {
+    "name" : "thread",
+    "value" : "7048-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.ui.main.test_main_add_tianjiashangping"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "facd1f0c31726c36.json",
+  "parameterValues" : [ ]
+}
